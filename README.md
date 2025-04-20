@@ -1,7 +1,7 @@
-# EV353_OceanographClimate
+# EV353_OceanographyClimate
 Repository for EV353 Oceanography and Climate at Colorado College
 
-# Setting up your course Python environment
+# Setting up your Python environment for EV353
 ***We will go over the instructions below during the first week of class.***
 
 ## Option A: If you have taken EV333 Atmospheric Science with Professor Lawman
@@ -103,4 +103,4 @@ You will install miniconda and Python on your personal computer for this class. 
 ```
 conda config --add channels conda-forge
 ```
-### 3. Then follow all the steps for Option A.
+### 3. Then follow all the steps for Option A to set up a new Python environment for this class.
