@@ -77,3 +77,30 @@ c. Open the Notebook: `EV353_Test_Required_Packages.ipynb`
 d. Run the first cell by clicking the play button. This will check if NumPy, Xarray, Matplotlib, Cartopy SciPy, cmocean, and the NetCDF4 packages are successfully installed. If you receive an `N` for any package, double check that you installed the package in your Ocean_EV353 environment. A `Y` for everything means you're ready to go!
 
 ## Option B: If you have NOT taken EV333 Atmospheric Science
+
+### 1. [Install Miniconda](https://docs.conda.io/projects/miniconda/en/latest/)
+
+**Important Note: If you already have Anaconda or miniconda installed on your computer (eg., from another class), skip to the next step. If you also have conda-forge then follow the instructions for Option A to create a new environment for this class.**
+
+Anaconda is a distribution of the Python programming language that simplifies package management. It is very popular for data science. Miniconda is a small version of Anaconda that includes the conda package manager, Python, and a few packages. Conda will help you easily install and manage Python packages and environments. 
+
+You will install miniconda and Python on your personal computer for this class. You will need to download the installer for your platform (macOS or Windows). 
+
+***<ins>If you have a Mac:<ins>** You will need to check which processor you have (Intel or Apple M1). To do this, click on the Apple icon in the upper left corner of your screen and go to **About this Mac***.
+
+1. Go to the Miniconda installation webpage: https://www.anaconda.com/docs/getting-started/miniconda/install
+2. Click the Basic install instructions that are approproate for your operating system (Windows or MacOS/Linux).
+3. Work through the install instructions provided (you will need to enter your email address to download miniconda).
+4. Choose the **64-Bit Graphical Installer** option that is appropriate for your operating system.
+5. Follow the prompts to complete the installation. You will need to agree to the license agreement and select the destination for the installation. For the desintation, choose the default path that populates automatically.
+6. Click **Install**. The installation may take some time.
+7. Once the installation is complete click **Next** and then **Finish.**
+8. To verify that conda is installed correctly, open a new terminal and type `conda`. If this command displays output this indicates that your conda installation is complete.
+
+### 2. Add conda-forge 
+1. Open the terminal (Mac) or command prompt (Windows).
+2. Copy and paste the following line and then hit return/enter:
+```
+conda config --add channels conda-forge
+```
+### 3. Then follow all the steps for Option A.
