@@ -22,6 +22,11 @@ This creates the Ocean_EV353 environment.
 
 The following Python packages were installed: [NumPy](https://numpy.org/doc/stable/index.html), [Matplotlib](https://matplotlib.org), [Cartopy](https://scitools.org.uk/cartopy/docs/latest/), [SciPy](https://scipy.org), [cmocean](https://www.google.com/search?client=safari&rls=en&q=cmocean&ie=UTF-8&oe=UTF-8). 
 
+If you run the line to create the environment and get an error about channels not found (for example with respect to installing cmocean), run the following line to add conda-forge:
+```
+conda config --add channels conda-forge
+```
+
 ### 3. Activate your Python environment
 In the terminal (Mac) or Command Prompt (Windows):
 ```
